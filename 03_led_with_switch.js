@@ -11,7 +11,7 @@ arduino.on('ready', function(){
         // input pin
         pin: 2,
         // minimum time to emit 'hold' event.
-        holdtime: 1000
+        holdtime: 500
     });
 
     button.on('up', function(){
